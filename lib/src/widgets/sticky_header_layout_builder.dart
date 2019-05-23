@@ -144,7 +144,7 @@ FlutterErrorDetails _debugReportException(
       exception: exception,
       stack: stack,
       library: 'flutter_sticky_header widgets library',
-      context: context);
+      context: ErrorDescription(context));
   FlutterError.reportError(details);
   return details;
 }
